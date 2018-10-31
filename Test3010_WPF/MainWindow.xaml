@@ -1,0 +1,33 @@
+﻿<Window x:Class="Test3010_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test3010_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+            <Grid Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <StackPanel x:Name="spGroups" Grid.Column="0"></StackPanel>
+            <StackPanel x:Name="spCount" Grid.Column="1"></StackPanel>
+
+        </Grid>
+       
+
+            <Grid Grid.Column="1">
+            <ListBox x:Name="tableRow">
+             
+            </ListBox>
+        </Grid>
+
+    </Grid>
+</Window>

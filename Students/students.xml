@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<students>
+  <students name="Ivanov V.D.">
+    <group>1</group>
+  </students>
+  <student name="Petrov.D.">
+    <group>2</group>
+  </student>
+</students>
